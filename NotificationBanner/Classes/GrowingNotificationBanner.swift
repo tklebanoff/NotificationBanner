@@ -98,7 +98,7 @@ public class GrowingNotificationBanner: BaseNotificationBanner {
     private let iconSize: CGFloat = 24.0
     
     /// Font used for the title label
-    internal var titleFont: UIFont = UIFont.systemFont(ofSize: 17.5, weight: UIFont.Weight.bold)
+    internal var titleFont: UIFont = UIFont.systemFont(ofSize: 17.5, weight: UIFont.Weight.medium)
     
     /// Font used for the subtitle label
     internal var subtitleFont: UIFont = UIFont.systemFont(ofSize: 15.0)
