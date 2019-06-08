@@ -22,6 +22,7 @@
 		EA9A178A1EC75DE000CF2261 /* MarqueeLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9A17891EC75DE000CF2261 /* MarqueeLabel.framework */; };
 		EA9A178C1EC75DE400CF2261 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9A178B1EC75DE400CF2261 /* SnapKit.framework */; };
 		F7E13CF61FB192ED0008EE4C /* NotificationBannerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E13CF51FB192ED0008EE4C /* NotificationBannerUtilities.swift */; };
+		FF15B7E722ABBB4D009B963A /* ProximaNova.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF15B7E622ABBB4D009B963A /* ProximaNova.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		EA9A17891EC75DE000CF2261 /* MarqueeLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarqueeLabel.framework; path = Carthage/Build/iOS/MarqueeLabel.framework; sourceTree = "<group>"; };
 		EA9A178B1EC75DE400CF2261 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		F7E13CF51FB192ED0008EE4C /* NotificationBannerUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBannerUtilities.swift; sourceTree = "<group>"; };
+		FF15B7E622ABBB4D009B963A /* ProximaNova.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNova.ttf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		823255A51EB87313006F95C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF15B7E622ABBB4D009B963A /* ProximaNova.ttf */,
 				823255A61EB87313006F95C3 /* Info.plist */,
 				823255A71EB87313006F95C3 /* NotificationBanner.h */,
 			);
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				823255B91EB8736D006F95C3 /* Cartfile in Resources */,
+				FF15B7E722ABBB4D009B963A /* ProximaNova.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
