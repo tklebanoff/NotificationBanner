@@ -33,10 +33,10 @@ public class NotificationBanner: BaseNotificationBanner {
     private var rightView: UIView?
     
     /// Font used for the title label
-    private var titleFont: UIFont = UIFont(name: "ProximaNova", size: 17.5)!
+    private var titleFont: UIFont = UIFont(name: "ProximaNova-Regular", size: 17.5)!
     
     /// Font used for the subtitle label
-    private var subtitleFont: UIFont = UIFont(name: "ProximaNove", size: 15)!
+    private var subtitleFont: UIFont = UIFont(name: "ProximaNova-Regular", size: 15)!
 
     public init(title: String? = nil,
                 subtitle: String? = nil,
