@@ -1,5 +1,2 @@
 # A scolling drop-in replacement for UILabel for long texts.
 github "tklebanoff/MarqueeLabel" "master"
-
-# A Swift Autolayout DSL for iOS & OS X
-github "SnapKit/SnapKit" ~> 5.0.0
